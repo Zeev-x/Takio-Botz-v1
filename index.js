@@ -118,8 +118,6 @@ module.exports = Christ = async (Christ, mek) => {
 		const isGroupAdmins = groupAdmins.includes(sender) || false
     const conts = mek.key.fromMe ? Christ.user.jid : Christ.contacts[sender] || { notify: jid.replace(/@.+/, '') }
     const pushname = mek.key.fromMe ? Christ.user.name : conts.notify || conts.vname || conts.name || '-'
-    const prem = JSON.parse(fs.readFileSync('./elite.json'))
-    const isprem = prem.includes(sender) || mek.key.fromMe
     const amelokta = (`${coowner}@s.whatsapp.net`)
     const isamel = amelokta.includes(sender) || mek.key.fromMe
     const zeetoyah = (`${toyah}`)
