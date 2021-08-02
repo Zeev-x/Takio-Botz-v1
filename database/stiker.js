@@ -1,1 +1,1 @@
-["badut","jelaskan"]
+[]
