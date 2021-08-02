@@ -120,6 +120,7 @@ module.exports = Christ = async (Christ, mek) => {
     const pushname = mek.key.fromMe ? Christ.user.name : conts.notify || conts.vname || conts.name || '-'
     const amelokta = (`${coowner}@s.whatsapp.net`)
     const isamel = amelokta.includes(sender) || mek.key.fromMe
+    const author = 'Zeevalya Christiano'
 //==========================================================≠=============//
 			var ase = new Date();
 
@@ -413,6 +414,8 @@ switch (command) {
 │• ${prefix}owner
 │• x code
 ╰────────────────⊱ 	
+
+By:${author}
 
 ❏ *${namabot}* ❏`
 //nase = await fs.readFileSync('./image/zeegans.jpg')
