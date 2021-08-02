@@ -381,8 +381,6 @@ switch (command) {
 │• ${prefix}fitnah
 │• ${prefix}fitnahpc
 │• ${prefix}kontak
-│• ${prefix}truth
-│• ${prefix}dare
 │• ${prefix}timer
 │• ${prefix}quotes
 ╰────────────────⊱ 	
@@ -1428,23 +1426,7 @@ case 'setimg':
         	} else {
             reply(`Kirim gambar dengan caption ${prefix}setimg`)
           	}
-			break	
-case 'truth':
-
-  if (!isGroup) return reply(mess.only.group)
-                const trut =['Pernah suka sama siapa aja? berapa lama?','Kalau boleh atau kalau mau, di gc/luar gc siapa yang akan kamu jadikan sahabat?(boleh beda/sma jenis)','apa ketakutan terbesar kamu?','pernah suka sama orang dan merasa orang itu suka sama kamu juga?','Siapa nama mantan pacar teman mu yang pernah kamu sukai diam diam?','pernah gak nyuri uang nyokap atau bokap? Alesanya?','hal yang bikin seneng pas lu lagi sedih apa','pernah cinta bertepuk sebelah tangan? kalo pernah sama siapa? rasanya gimana brou?','pernah jadi selingkuhan orang?','hal yang paling ditakutin','siapa orang yang paling berpengaruh kepada kehidupanmu','hal membanggakan apa yang kamu dapatkan di tahun ini','siapa orang yang bisa membuatmu sange','siapa orang yang pernah buatmu sange','(bgi yg muslim) pernah ga solat seharian?','Siapa yang paling mendekati tipe pasangan idealmu di sini','suka mabar(main bareng)sama siapa?','pernah nolak orang? alasannya kenapa?','Sebutkan kejadian yang bikin kamu sakit hati yang masih di inget','pencapaian yang udah didapet apa aja ditahun ini?','kebiasaan terburuk lo pas di sekolah apa?']
-		const ttrth = trut[Math.floor(Math.random() * trut.length)]
-		truteh = await fs.readFileSync('./image/truth.jpeg');
-		Christ.sendMessage(from, truteh, image, { caption: '*TRUTH*\n\n'+ ttrth, quoted: mek })
-		break
-		case 'dare':
-
-		  if (!isGroup) return reply(mess.only.group)
-		const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "🦄??" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
-		const der = dare[Math.floor(Math.random() * dare.length)]
-		tod = await fs.readFileSync('./image/dare.jpeg');
-		Christ.sendMessage(from, tod, image, { quoted: mek, caption: '*DARE*\n\n'+ der })
-		break      
+			break	  
 case 'admin':
             case 'owner':
             case 'creator':
@@ -1494,11 +1476,6 @@ case 'listadmin':
 					}
 					mentions(teks, groupAdmins, true)
 					break
-case 'clear':
-            if (!mek.key.fromMe) return 
-            zii = '-'
-            fakestatus('*SUCCES*')
-            break       
 case 'tutuptime':
          if (!mek.key.fromMe) return reply(mess.only)
               Christ.updatePresence(from, Presence.composing) 
