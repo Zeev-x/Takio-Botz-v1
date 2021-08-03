@@ -8,7 +8,7 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/Zeetoyah002"><img title="Author" src="https://telegra.ph/file/a06fd19320d30fe13b70f.jpg" /></a>
+  <a href="https://github.com/Zeetoyah002"><img title="Author" src="https://img.shields.io/badge/Author-Zeetoyah002-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a href="https://wa.me/6285755007597">KYAAA ONI CHAN >//< </a>
 </h4>
