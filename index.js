@@ -1567,7 +1567,7 @@ reply(e)
 	}
 if (isGroup && budy != undefined) {
 	} else {
-	console.log(color('[BOT PRIBADI]', 'cyan'), color(sender.split('@')[0]))
+	console.log(color('[Takio-Botz-v1]', 'cyan'), color(sender.split('@')[0]))
 	}		
 	} catch (e) {
     e = String(e)
