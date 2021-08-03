@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://telegra.ph/file/dc71a19fb5815e3ccc671.jpg" alt="Takio-Botz-v1" width="300" />
 
-# DAHLAH
+# ZEETOYAH
 
 >
 >
