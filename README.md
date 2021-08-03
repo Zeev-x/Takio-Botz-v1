@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://telegra.ph/file/4bf94020540ae91f3f244.jpg" alt="Takio-Botz-v1" width="300" />
+<img src="https://telegra.ph/file/dc71a19fb5815e3ccc671.jpg" alt="Takio-Botz-v1" width="300" />
 
 # DAHLAH
 
