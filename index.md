@@ -7,7 +7,7 @@ ikuti langkah-langkah di bawah ini
 ### Cara install bot whatsapp free sc non apikey by Zee
 
 
-```markdown
+
 ## CARA INSTALL DI TERMUX
 ```bash
 > pkg install nodejs && pkg install git
