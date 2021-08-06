@@ -1,1 +1,1 @@
-"stickerMessage"
+[]
