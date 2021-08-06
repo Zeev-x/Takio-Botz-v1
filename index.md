@@ -5,8 +5,10 @@ Silahkan clone project ini [Zeetoyah002](https://github.com/Zeetoyah002/Takio-Bo
 ikuti langkah-langkah di bawah ini
 
 ### Cara install bot whatsapp free sc non apikey by Zee
+Note : Versi ini masih dalam pengembangan dan saya akan terus mengembangkan project ini
+Jadi kalau semisal ada bug mohon laporkan ke saya agar saya dapat memperbaiki secepatnya
 
-
+[whatsaapp](http://wa.me/6285755007597)
 
 ## CARA INSTALL DI TERMUX
 ```bash
@@ -26,5 +28,10 @@ ikuti langkah-langkah di bawah ini
 
 
 ### Zeevalya Christiano
+
+
+
+
+### Kang copast nih boss :v
 
 
