@@ -38,7 +38,10 @@
 
 # INFO
 
-Sc ini masih dalam pengembangan
+* Sc ini masih dalam pengembangan
+* Saya sarankan pakai yang terbaru
+* Sc yang ini agak erorr
+
 
   # MAKASIH LORT
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
